@@ -679,6 +679,12 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
 
 }
 
+@media screen and (max-width:480px){
+    .fa-users{
+        font-size:4rem ;
+    }
+}
+
 
 /* features Section end here */
 
