@@ -498,3 +498,166 @@
 /* ===================================about section ends here============================================ */
 
 
+
+
+/* ====================================services section start here!-========================================================= */
+
+.services{
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10rem 0 ;
+
+}
+
+.services h1{
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-color: #ff8177;
+    
+    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+
+
+
+}
+
+.services-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.services-card{
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    transition: .3s all ease-in;
+
+}
+
+
+
+.services-card:nth-child(2) {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+}
+
+.services-card:nth-child(3) {
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+
+.services-card:nth-child(4) {
+    background: #2c3e50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+
+}
+
+.services-card:nth-child(1) {
+    background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+    
+
+}
+
+.services-card h2{
+    text-align: center;
+}
+
+.services-card p{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.services-btn{
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.services-card button{
+    color: white;
+    padding: 14px 24px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: #131313;
+}
+
+.services-card button:hover{
+    cursor: pointer;
+
+}
+
+.services-card:hover{
+    transform: scale(1.075);
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+
+/* Mobile Responsive+=========+++++++++++++++++++++++++ */
+@media screen and (max-width:1300px){
+
+    .services-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+}
+
+@media screen and (max-width:768px){
+
+    .services-wrapper{
+        grid-template-columns: 1fr ;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+/* ============================Service Section ends Here!=============================================== */
+
+
+
+
+
+
