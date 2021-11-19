@@ -614,10 +614,14 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
     border: none;
     font-size: 1rem;
     background-color: #131313;
+    transition: all ease .3s;
 }
 
 .services-card button:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
+   
 
 }
 
@@ -656,6 +660,27 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
 
 /* ============================Service Section ends Here!=============================================== */
 
+
+
+/* features Section Start here */
+
+
+
+.fa-users{
+    font-size: 14rem;
+}
+
+
+.main-card-container.background{
+    background-color: #ff512f;
+    transition: 0.3s ease all;
+    background: -webkit-linear-gradient( to right, #dd2476, #ff512f);
+    background: linear-gradient( to right, #dd2476, #ff512f);
+
+}
+
+
+/* features Section end here */
 
 
 
